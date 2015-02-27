@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica4</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script type="text/javascript">
+    	//alert('Hola mndo');
+    	/* comentarios */
+    	
+
+    	function calcula(operacion){
+    		var operador1 = document.calc.operador1.value;
+    		var operador2 = document.getElementById("operador2").value;
+    		alert(operador1);
+    		alert(operador2);
+    		var result = eval(operador1 + operacion +operador2  );
+    		document.calc.resultado.value = result;
+    	}
+
+    
+    </script>
+
+  </head>
+  <body>
+    <h1>Practica 4</h1>
+
+    <div class="container text-center">
+
+    		
+    <div class="row">
+    		<div class="col-md-6">
+    				<form name="calc">
+    					<label for="operador1">Operador 1</label>
+    					<input type="number" value="0" name="operador1" 
+    							id="operador1"
+    							class="form-control text-center">
+    					<label for="operador2">Operador 2</label>    		
+    					<input type="text" value="2" 
+    					id="operador2" name="operador2" 
+    						class="form-control text-center">
+    					<input type="button" value=" + "
+    						onclick="calcula('+')" 
+    						class="btn btn-success" >
+    					<input type="button" value=" - "
+    						class="btn btn-default">
+    					<input type="button" value=" * "
+    						class="btn btn-danger">
+						<input type="button" value=" / "
+    						class="btn btn-info">
+    					<input type="text" value="" 
+    					name="resultado" placeholder="Resultado"
+    						class="form-control text-center">
+    				</form>
+    		</div>	
+    		<div class="col-md-6">
+    				
+    		</div>
+
+    </div>
+
+    </div>
+
+    </body>
+</html>
