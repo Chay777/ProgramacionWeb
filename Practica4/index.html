@@ -5,126 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Practica4</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-bt-plantilla
-    <script type="text/javascript">
-    	//alert('Hola mndo');
-    	/* comentarios */
-    	
+      <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">   
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/funciones.js"></script> 
 
-    	function calcula(operacion){
-    		var operador1 = document.calc.operador1.value;
-    		var operador2 = document.getElementById("operador2").value;
-    		//alert(operador1);
-    		//alert(operador2);
-    		var result = eval(operador1 + operacion +operador2  );
-    		document.calc.resultado.value = result;
-    	}
-        function calculaM(operacion)
-        {
-            var Centimetros =document.getElementById("CM").value;
-            var mil= 1000;
-            var result2= eval(Centimetros + operacion + mil);
-            document.convertir.resultadoM.value = result2;
-
-
-
-        }
-         function calculaDolar(operacion)
-        {
-            var Pesos =document.getElementById("Pesos").value;
-            var Dolar= 13.50;
-            var result3= eval(Pesos + operacion + Dolar);
-            document.convertir2.resultadoDolar.value = result3;
-
-
-
-        }
-
-
-    
-    </script>
 
   </head>
   <body>
     <h1>Practica 4</h1>
+    <h1>Practica 4.1</h1>
+    <h1>Practica 4.2</h1>
+    <div class="alert alert-info" id="consola"> consola</div>
 
     <div class="container text-center">
 
-    		
-    <div class="row">
-    		<div class="col-md-6">
-    				<form name="calc">
-    					<label for="operador1">Operador 1</label>
-    					<input type="number" value="0" name="operador1" 
-    							id="operador1"
-    							class="form-control text-center">
-    					<label for="operador2">Operador 2</label>    		
-    					<input type="text" value="2" 
-    					id="operador2" name="operador2" 
-    						class="form-control text-center">
-    					<input type="button" value=" + "
-    						onclick="calcula('+')" 
-    						class="btn btn-success" >
-    					<input type="button" value=" - "
-    						class="btn btn-default">
-    					<input type="button" value=" * "
-    						class="btn btn-danger">
-						<input type="button" value=" / "
-    						class="btn btn-info">
-    					<input type="text" value="" 
-    					name="resultado" placeholder="Resultado"
-    						class="form-control text-center">
-    				</form>
-
-               
-
-    		</div>	
-
-    		<div class="col-md-6">
-    			<form name ="convertir">
-                    <label form="Valor1">Centimetros</label>
-                        <input type="number" value="0" name="CM" 
-                                id="CM"
-                                class="form-control text-center">
-                       
-                        <input type="button" value=" calcula "
-                            onclick="calculaM('/')" 
-                            class="btn btn-success" >
-                        
-                        <input type="text" value="" 
-                        name="resultadoM" placeholder="Metros"
-                            class="form-control text-center">
-
-                </form>	
-    		
-            </div>
-    <div class="col-md-6">
-                <form name ="convertir2">
-                    <label form="Valor1">Pesos</label>
-                        <input type="number" value="0" name="Pesos" 
-                                id="Pesos"
-                                class="form-control text-center">
-                       
-                        <input type="button" value=" calcula "
-                            onclick="calculaDolar('/')" 
-                            class="btn btn-success" >
-                        
-                        <input type="text" value="" 
-                        name="resultadoD" placeholder="Metros"
-                            class="form-control text-center">
-
-                </form> 
-            
+        <div class= "row" > 
+            <div class="col-md-6"> 
+                <img src="img/img3.jpg" width= "500px" id= "img1">
             </div>
 
-            
+
+
+            <div class="col-md-6">
+                    
+               <button id="bt1" class= "btn btn-primary"> Imagen1</button>
+               <button id="bt2" class= "btn btn-primary"> Imagen2</button>
+               <button id="bt3" class= "btn btn-primary"> Imagen3</button>
+            </div>  
+
+
+
+        </div>
+
+    		
+    
 
     </div>
 
-
-    </div>
 
     </body>
 </html>
+    
+
