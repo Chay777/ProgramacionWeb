@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica4</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <h1>Practica 4</h1>
+
+    <div class="container text-center">
+
+            
+    <div class="row">
+            <div class="col-md-6">
+                        
+                <form method="GET"  action="Formulario.html">
+                    
+                    <div class="form-group">
+                        <label for ="Email">Email</label>
+                        <input class ="form-control" type ="text" name="Email" id="email" required>
+
+                        <label for ="Email2">Email2</label>
+                        <input class ="form-control" type ="email" name="Email2" id="email2" required>
+
+                        <label for ="Foto">Foto</label>
+                        <input class ="form-control" type ="file" name="Foto" id="Foto" required>
+
+                        
+                        <div class="form-group">
+                        <label for ="Sueldo">Sueldo</label>
+                        <div class="input-group-addon">$</div>
+                        <input class ="form-control" type ="Sueldo" name="Sueldo" id="Sueldo" required>
+                        </div>
+
+
+                        <label for="Descripcion">Descripcion</label>
+                        <textarea class="form-control" name="Descripcion" id="Descripcion"> </textarea>
+
+
+                        <div class="checkbox">
+                            <label> 
+                                <input type="checkbox" name="Terminos" id="Terminos" >Aceptar Terminos
+                            </label>
+                        </div>
+
+                         <div class="radio">
+                            <label> 
+                                <input type="radio" name="genero"  >Hombre
+                            </label>
+                            <label> 
+                                <input type="radio" name="genero"  >Mujer
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            
+                            <select class="form-control">
+                                <option>Guanajuato</option>
+                                <option>Guerrero</option>
+                                <option>Jalisco</option>
+                                <option>Otro</option>
+                            </select>
+
+                        </div>
+
+                    </div>
+                   
+                    <div class="form-group">
+                    <input class ="btn btn-primary" type ="submit" value"Guardar">
+                    </div>
+
+
+
+                </form>           
+
+
+
+
+            </div>  
+            <div class="col-md-6">
+                    
+                 <label for ="Buscar">Buscar</label>
+                 <input class ="form-control" type ="search" name="Buscar" id="Buscar" required>
+
+
+
+            </div>
+
+    </div>
+
+    </div>
+
+    </body>
+</html>

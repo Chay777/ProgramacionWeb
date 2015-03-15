@@ -1,0 +1,31 @@
+
+#app {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+}
+
+
+#div_aplicacion {
+ top:0px;
+ left: -60px;
+ width:0px;
+ margin-right: 1px;
+background-color: #dff0d8;
+border-radius: 0px 82px 82px 0px;
+border: 0px solid #000000;
+ box-shadow: 2px 2px 10px #999;
+ 
+}
+
+
+
+#panel_app
+{
+
+	 display:none;"
+}

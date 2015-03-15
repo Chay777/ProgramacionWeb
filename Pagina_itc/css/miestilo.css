@@ -1,0 +1,80 @@
+
+#inicio {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    width:100px;
+}
+#ninstituto {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    width:300px;
+     
+}
+#oedu {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    width:250px;
+     
+}
+
+#inv {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    width:200px;
+     
+}
+
+#ciit,#sii {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    width:100px;
+     
+}
+#tecnica {
+    color: gray;
+    font-weight: 200;
+     
+}
+#rendicion,#premio,#conferencia,#evento,#rendicion2,#resultados,#programa,#nuevo,#años,#apartado,#proced,#conferencia2
+
+ {
+
+color: #A5273F;
+   
+}
+#nacional,#evento2,#convocatoria2 {
+
+color: #A5273F;
+   
+}
+
+#lista{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: justify;
+}
+
+

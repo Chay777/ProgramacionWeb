@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sistema Integral de Informaci&oacute;n</title>
+    <style type="text/css">
+
+
+    </style>
+    <!-- Bootstrap -->
+ <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/funciones.js"></script> 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    
+
+  
+
+  </head>
+ <body id="body" style="background: #fafafa">
+  <link rel="shortcut icon" href="/sii/images/favicon2.ico" />
+
+  	<div class="container text-center">
+
+
+		<img src="img/banner_top_itc.jpg" width="100%" id="banner-itc">
+
+		<div class="row">
+			<hr>
+    </div>
+
+      <div class="row"><!--SEGUNDA FILA-->
+   
+
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#mensajes"> <span  class="glyphicon glyphicon-envelope"></span> Mensajes ('1')</button>
+
+<div class="modal fade bs-example-modal-lg" id="mensajes" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    
+      <div class= "modal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
+        
+        <h4>Mensajes <br> 
+
+        </h4>
+
+      </div>
+       <div class="modal-body" > Oscar Grimaldo: <br> Mañana no habrá clases, sigan con la lectura de javascript  </div>
+       <div class= "modal-footer"> 
+        <button type="button" class= "btn btn-success" data-dismiss="modal"> Cerrar</button>
+       </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-success">
+          <span class="glyphicon glyphicon-calendar"></span> Control de Citas
+        </button>
+
+
+
+       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Oentrada"> <span class="glyphicon glyphicon-file"> </span> Orden de entrada</button>
+
+<div class="modal fade bs-example-modal-lg" id="Oentrada" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    
+      <div class= "modal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
+        
+        <h4>Orden de entrada <br> 
+
+        </h4>
+
+      </div>
+       <div class="modal-body" >Lunes 13 de febrero 13:00  </div>
+       <div class= "modal-footer"> 
+        <button type="button" class= "btn btn-success" data-dismiss="modal"> Cerrar</button>
+       </div>
+
+    </div>
+  </div>
+</div>
+
+      
+
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#kardex"><span class="glyphicon glyphicon-inbox"></span> Kardex</button>
+
+<div class="modal fade bs-example-modal-lg" id="kardex" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    
+      <div class= "modal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times;</button>
+        <h4>Kardex </h4>
+
+      </div>
+       <div class="modal-body" > 
+
+       
+          <table class="table table-hover">
+            <div class="text-center">
+            <tr>
+              <th class="success">Clave</th>
+              <th class="success">Grupo</th>
+              <th class="success">Materia</th>
+              <th class="success">Calificación</th>
+              <th class="success">Opción</th>
+              <th class="success">Semestre</th>
+              <th class="success">Periodo</th>
+              <th class="success">Año</th>
+               
+            </tr>
+
+            <tr>
+              <td class="active">FM13</td>
+              <td class="active">B</td>
+              <td class="active">Programaci&oacute;n Web</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+            
+
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM14</td>
+              <td class="active">A</td>
+              <td class="active">Taller de Investigaci&oacute;n I</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM16</td>
+              <td class="active">A</td>
+              <td class="active">Inteligencia Artificial</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM17</td>
+              <td class="active">A</td>
+              <td class="active">Sistemas Programables</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM18</td>
+              <td class="active">A</td>
+              <td class="active">Desarrollo de Habilidades Gerenciales</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM11</td>
+              <td class="active">A</td>
+              <td class="active">Conmutaci&oacute;n y Enrutamiento de Redes</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM12</td>
+              <td class="active">A</td>
+              <td class="active">Gesti&oacute;n de Proyectos de Software</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active">Promedio</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+          </table>
+
+
+           
+         </div>
+       <div class= "modal-footer"> 
+        <button type="button" class= "btn btn-success" data-dismiss="modal"> Cerrar</button>
+       </div>
+
+    </div>
+  </div>
+</div>
+
+        <button type="button" class="btn btn-success">
+          <span class="glyphicon glyphicon-log-in"></span> Inscripciones
+        </button>
+
+        <button type="button" class="btn btn-danger">
+          <span class="glyphicon glyphicon-off"></span> Cerrar Sesi&oacute;n
+        </button>
+
+
+      </div><!--CIERRE DE LA SEGUNDA FILA-->
+
+
+
+      <div><!--INFORMACION PERSONAL-->
+        <hr>
+          <div class="panel panel-success">
+          <div id="titulo_panel1" class="panel-heading">
+            <span id="span1"class="glyphicon glyphicon-user"></span>
+            <h3 class="panel-title"><strong id="font1"> Informaci&oacute;n Personal</strong></h3>
+
+          </div><!--CIERRE DE PANEL HEADING-->
+
+        
+
+          <div class="panel-body">
+            <div class="col-md-6">
+
+              <img src="img/woman.png" width="40%">
+
+            </div>
+            <div class="col-md-6">
+             <div class="text-left">
+              <h5>Nombre: Sanjuana Aurora Ramirez Alvarez</h5>
+              <h5>Semestre: 7</h5>
+              <h5>Especialidad: Ingenier&iacute;a en Sistemas Computacionales</h5>
+              <h5>No. Control: 12030140</h5>
+              <h5>Cr&eacute;ditos Acumulados: 161</h5>
+              <h5>Inscrito: SI</h5>
+              <h5>Estatus: VI-Vigente</h5>
+              
+            </div>
+          </div><!--CIERRE DE PANEL-BODY-->
+
+
+         </div><!--cierre de text-left-->
+             
+          
+        </div>
+
+      </div><!--CIERRE DE INFORMACION PERSONAL-->
+
+
+		<div  class="row"><!-- PRIMERA FILA-->
+      <hr>
+        <div  id="panel_app" class="col-md-3">
+        
+        <div  class="panel panel-success">
+         
+            <div id="app2" class="panel-body">
+              
+             
+       
+              <div class="btn-group-vertical">
+
+
+               
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#carga"> <span class="glyphicon glyphicon glyphicon-list-alt"> </span> Carga academica</button>
+
+
+              <div class="modal fade bs-example-modal-lg" id="carga" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-lg">
+                     <div class="modal-content">
+    
+                         <div class= "modal-header">
+
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
+        
+                           <h4>Carga Académica <br> 
+
+                           </h4>
+
+                        </div>
+                   <div class="modal-body" >
+
+                    <embed src="img/carga.pdf" width="850" height="547">
+
+
+                   </div>
+                   <div class= "modal-footer"> 
+                         <button type="button" class= "btn btn-success" data-dismiss="modal"> Cerrar</button>
+                   </div>
+
+                  </div>
+              </div>
+            </div>
+
+
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-folder-open"></span> Informacion Personal</button>
+
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-check"></span> Calificar a los Maestros</button>
+
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-earphone"></span> Quejas y Sugerencias</button>
+
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-chevron-down"></span> Baja de Materias</button>
+
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-list"></span> Reglamento de Alumnos</button>
+
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-cog"></span> Actualizaci&oacute;n de Datos</button>
+
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span> Sistema de Tutor&iacute;as</button>
+
+
+
+              </div><!--CIERRE DE PANEL-GROUP-VERTICAL-->
+                  
+          </div><!--CIERRE DE PANEL-BODY-->
+ 
+          
+        </div>
+
+      </div><!--CIERRE DE COL-MD-3 1RA FILA-->
+
+
+<div id="div_aplicacion" class="col-md-1">
+
+
+              <ul class="nav nav-tabs">
+                <H3></H3>
+ <a id="lb_app"><h5></h5> <span align="center" class="glyphicon glyphicon-log-in" style="color:#3C763D" ></span><font size="1.2" color="#3C763D"><b>   A<br>P<br>L<br>I<br>C<br>A<br>C<br>I<br>O<br>N<br>E<br>S  <H3></H3> </b></font></a>
+
+               
+              </ul>
+
+  </div>
+    <div class="col-md-1">
+
+    </div>
+    <div class="col-md-1">
+
+    </div>
+
+      <div  id="calif"class="col-md-8"  >
+          
+          
+            <table class="table table-hover">
+            <div class="text-center">
+            <tr>
+              <th class="success"><font color="#3C763D">Clave</font></th>
+              <th class="success"><font color="#3C763D">Grupo</font></th>
+              <th class="success"><font color="#3C763D">Materia</font></th>
+              <th class="success"><font color="#3C763D">Cal. 1</font></th>
+              <th class="success"><font color="#3C763D">Cal. 2</font></th>
+              <th class="success"><font color="#3C763D">Cal. 3</font></th>
+              <th class="success"><font color="#3C763D">Cal. 4</font></th>
+              <th class="success"><font color="#3C763D">Promedio</font></th>
+            </tr>
+
+            <tr>
+              <td class="active">FM13</td>
+              <td class="active">B</td>
+              <td class="active">Programaci&oacute;n Web</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+            
+
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM14</td>
+              <td class="active">A</td>
+              <td class="active">Taller de Investigaci&oacute;n I</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM16</td>
+              <td class="active">A</td>
+              <td class="active">Inteligencia Artificial</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM17</td>
+              <td class="active">A</td>
+              <td class="active">Sistemas Programables</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM18</td>
+              <td class="active">A</td>
+              <td class="active">Desarrollo de Habilidades Gerenciales</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM11</td>
+              <td class="active">A</td>
+              <td class="active">Conmutaci&oacute;n y Enrutamiento de Redes</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+            <tr>
+              <td class="active">GM12</td>
+              <td class="active">A</td>
+              <td class="active">Gesti&oacute;n de Proyectos de Software</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+             
+
+
+            </tr>
+
+          </table>
+          
+      </div><!--CIERRE DE COL-MD-8-->
+
+
+		</div><!--CIERRE DE LA PRIMERA FILA-->
+
+
+    <div class="row">
+      <img src="img/logo_footer_sep.png">
+
+    </div>
+
+
+
+		</div><!--CIERRE DE CLASS CONTAINER-->
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+	
