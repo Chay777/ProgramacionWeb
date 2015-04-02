@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica4</title>
+      <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">   
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/miestilo.css">
+    <script type="text/javascript" src="js/funciones.js"></script> 
+ <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  </head>
+  <body id="body">
+    <audio src="sonido/fondo.mp3" autoplay="autoplay"></audio>
+      <div class="container text-center">
+
+        <div class= "row" > 
+            
+
+            <div class="col-md-2 "> 
+           
+           <div class="panel panel-default">
+             <div id="panel1" class="panel-heading" >Intentos</div>
+
+               <div id="body1" class="panel-body ">
+
+               
+              <input size=5 id="marcador"class="form-control" id="marcador" type="text" placeholder="      " disabled>
+
+
+                 </div>
+            </div>
+
+            </div>
+
+
+
+            <div class="col-md-8">
+                    
+               <div class="panel panel-default">
+             <div  id="panel2" class="panel-heading"> <h2>El juego del ahorcado</h2></div>
+
+               <div  id="body2"class="panel-body">
+
+
+
+
+                <canvas id="Lienzo" width="600" height="300">
+                   No soporta canvas!
+                </canvas> <br><br><br>
+               <!-- primera fila del teclado-->
+                <button id="btn_Q" type="button" name="Q" class="btn btn-primary btn-lg">Q</button>
+                <button id="btn_W" type="button" name="W" class="btn btn-primary btn-lg">W</button>
+                <button id="btn_E" type="button" name="E" class="btn btn-primary btn-lg">E</button>
+                <button id="btn_R" type="button" name="R" class="btn btn-primary btn-lg">R</button>
+                <button id="btn_T" type="button" name="T" class="btn btn-primary btn-lg">T</button>
+                <button id="btn_Y" type="button" name="Y" class="btn btn-primary btn-lg">Y</button>
+                <button id="btn_U" type="button" name="U" class="btn btn-primary btn-lg">U</button>
+                <button id="btn_I" type="button" name="I" class="btn btn-primary btn-lg">I</button>
+                <button id="btn_O" type="button" name="O" class="btn btn-primary btn-lg">O</button>
+                <button id="btn_P" type="button" name="P" class="btn btn-primary btn-lg">P</button> <br><br>
+
+                <!-- segunda fila del teclado-->
+                <button id="btn_A" type="button" name="A" class="btn btn-primary btn-lg">A</button>
+                <button id="btn_S" type="button" name="S" class="btn btn-primary btn-lg">S</button>
+                <button id="btn_D" type="button" name="D" class="btn btn-primary btn-lg">D</button>
+                <button id="btn_F" type="button" name="F" class="btn btn-primary btn-lg">F</button>
+                <button id="btn_G" type="button" name="G" class="btn btn-primary btn-lg">G</button>
+                <button id="btn_H" type="button" name="H" class="btn btn-primary btn-lg">H</button>
+                <button id="btn_J" type="button" name="J" class="btn btn-primary btn-lg">J</button>
+                <button id="btn_K" type="button" name="K" class="btn btn-primary btn-lg">K</button>
+                <button id="btn_L" type="button" name="L" class="btn btn-primary btn-lg">L</button>
+                <button id="btn_Ñ" type="button" name="Ñ" class="btn btn-primary btn-lg">Ñ</button><br><br>
+                
+
+                <!-- tercera fila del teclado-->
+                <button id="btn_Z" type="button" name="Z" class="btn btn-primary btn-lg">Z</button>
+                <button id="btn_X" type="button" name="X" class="btn btn-primary btn-lg">X</button>
+                <button id="btn_C" type="button" name="C" class="btn btn-primary btn-lg">C</button>
+                <button id="btn_V" type="button" name="V" class="btn btn-primary btn-lg">V</button>
+                <button id="btn_B" type="button" name="B" class="btn btn-primary btn-lg">B</button>
+                <button id="btn_N" type="button" name="N" class="btn btn-primary btn-lg">N</button>
+                <button id="btn_M" type="button" name="M" class="btn btn-primary btn-lg">M</button>
+
+
+                 </div>
+
+            </div>
+            </div>  
+
+
+            <div class="col-md-2"> 
+           
+           <div class="panel panel-default">
+             <div id="panel3" class="panel-heading">Opciones</div>
+
+              
+
+               <div id="body3"class="panel-body">
+
+            <button id="comenzar" type="button" class="btn btn-primary" >Comenzar</button> <br> <br>
+             <button id="nuevo" type="button" class="btn btn-primary">Nuevo juego</button> <br> <br>
+             <button id="pistas" type="button" class="btn btn-primary">Pistas</button><br><br> 
+             <button id="VSplayer" type="button" class="btn btn-primary">Vsplayer</button><br><br> 
+
+             <input type="password" class="form-control" id="entrada"  disabled
+             placeholder="aqui tu palabra" name="entrada"><br><br> 
+
+              <button id="listo" type="button" class="btn btn-primary">Listo</button>
+                                        
+           
+
+
+                 </div>
+            </div>
+
+            </div>
+
+    </body>
+    
+</html>
+    
+

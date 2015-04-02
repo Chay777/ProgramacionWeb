@@ -1,4 +1,16 @@
-.botonesL {
+#btn_Q,#btn_W,#btn_E,#btn_R,#btn_T,#btn_Y,#btn_U,#btn_I,#btn_O,#btn_P
+,#btn_A,#btn_S,#btn_D,#btn_F,#btn_G,#btn_H,#btn_J,#btn_K,#btn_L,#btn_Ñ
+,#btn_Z,#btn_X,#btn_C,#btn_V,#btn_B,#btn_N,#btn_M
+{
 
-	width:150px;
+
+   -webkit-box-shadow: 0 20px 10px -10px rgba(0,0,0,.5),0 1px 4px rgba(0,0,0,.3),0 0 40px rgba(0,0,0,.1) inset;
+-moz-box-shadow: 0 -15px 10px -10px rgba(0,0,0,.5),0 1px 4px rgba(0,0,0,.3),0 0 40px rgba(0,0,0,.1) inset;
+box-shadow: 0 15px -50px -10px rgba(0,0,0,.5),0 1px 4px rgba(0,0,0,.3),0 0 40px rgba(0,0,0,.1) inset;
 }
+#Lienzo,#canvas2
+{
+
+   border: 1px solid black;
+  
+   }
